@@ -36,5 +36,5 @@ class Button:
 
         # draw button on screen
         surface.blit(self.image, (self.rect_pos[0], self.rect_pos[1]))
-        self.font.render(surface, self.text, self.rect_pos[0] + self.image.get_width() / 4, self.rect_pos[1] + self.image.get_height() / 3)
+        self.font.render(surface, self.text, self.rect_pos[0] + self.image.get_width() / 6, self.rect_pos[1] + self.image.get_height() / 3)
         return click

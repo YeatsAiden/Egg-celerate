@@ -1,0 +1,45 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "C:/Users/Yeats Aiden/All projects/python projects/Jam entry/assets/levels/level_1.tmx",
+    "expandedProjectPaths": [
+        ".",
+        "C:/Users/Yeats Aiden/All projects/python projects/Jam entry/assets/levels"
+    ],
+    "fileStates": {
+        "C:/Users/Yeats Aiden/All projects/python projects/Jam entry/assets/levels/level_1.tmx": {
+            "scale": 2,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 219.5,
+                "y": 3799
+            }
+        },
+        "floor.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 8,
+            "scaleInEditor": 11
+        }
+    },
+    "last.imagePath": "C:/Users/Yeats Aiden/All projects/python projects/Jam entry/assets/tileset",
+    "map.height": 500,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "openFiles": [
+        "floor.tsx",
+        "C:/Users/Yeats Aiden/All projects/python projects/Jam entry/assets/levels/level_1.tmx"
+    ],
+    "project": "Jam_entry.tiled-project",
+    "recentFiles": [
+        "floor.tsx",
+        "C:/Users/Yeats Aiden/All projects/python projects/Jam entry/assets/levels/level_1.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}
