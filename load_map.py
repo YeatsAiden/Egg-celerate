@@ -18,10 +18,10 @@ class Load_map:
         """
         for i in level.layers:
             for x, y, surf in i.tiles():
-                surface.blit(surf, (x * 8 - scroll[0], y * 8 - scroll[1]))
+                surface.blit(surf, (x * 8 - scroll[0] - 8, y * 8 - scroll[1]))
 
     def make_tiles_array(self, level):
         array = []
         for i in level.layers:
-            array = [pygame.Rect(x * 8, y * 8, surf.get_width(), surf.get_height()) for x, y, surf in i.tiles()]
+            array = [pygame.Rect(x * 8 - 8, y * 8, surf.get_width(), surf.get_height()) for x, y, surf in i.tiles()]
         return array
