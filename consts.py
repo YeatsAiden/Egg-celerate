@@ -29,6 +29,11 @@ explosion_noise = pygame.mixer.Sound("assets/sounds/explosion.wav")
 explosion_noise.set_volume(0.5)
 explosion_noise_1 = pygame.mixer.Sound("assets/sounds/explosion_1.wav")
 explosion_noise_1.set_volume(0.5)
+game_over_noise = pygame.mixer.Sound("assets/sounds/game_over.wav")
+game_over_noise.set_volume(0.7)
+win_noise = pygame.mixer.Sound("assets/sounds/win.wav")
+win_noise.set_volume(0.7)
+
 
 g = 9.807/2000  # divide to make it less quick
 

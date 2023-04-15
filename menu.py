@@ -177,6 +177,7 @@ class Menu:
                 self.confetti.confetti_explosion(self.display, self.flag.rect.topleft, 30, self.scroll, self.current_level[1])
                 self.font.render(self.display, 'You Won!', 110, 40)
                 if not len(self.confetti.confetti):
+                    win_noise.play()
                     is_running = False
 
             self.rescale_window()
@@ -190,6 +191,8 @@ class Menu:
         pygame.mixer.music.stop()
         if self.win:
             self.calc_best_time()
+        elif not self.win and self.total_sec == 0:
+            game_over_noise.play()
         
             
 
