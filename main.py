@@ -5,6 +5,7 @@ from load_map import *
 
 pygame.init()
 window = pygame.display.set_mode(window_size)
+pygame.display.set_caption("Egg-celerategi")
 display = pygame.Surface(display_size)
 pygame.mouse.set_visible(False)
 
