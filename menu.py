@@ -383,11 +383,12 @@ class Menu:
     def calc_best_time(self):
         time = self.get_record()
         time_diff = self.total_time - self.total_sec
+        print(time_diff)
         if time_diff < time:
             time = time_diff
             self.save_time(time)
         min_diff = time / 60
-        sec_diff = time % 60
+        sec_diff = time % 60 - 1
         if sec_diff < 10:
             sec_diff = f"0{sec_diff}"
         self.best_time = f"{math.trunc(min_diff)}:{sec_diff}"

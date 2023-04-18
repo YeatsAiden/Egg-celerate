@@ -122,4 +122,9 @@ class Particle:
         image = image.copy()
         image.blit(color_img, (0, 0), special_flags = pygame.BLEND_MULT)
         return image
+    
+
+    # def particle_manager(self):
+        
+
             
