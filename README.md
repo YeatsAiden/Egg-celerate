@@ -5,3 +5,5 @@ The only extra library besides pygame that will be needed for this game to work 
 # Controls
 Mouse, W, A, S, D, space bar and arrow keys.
 Mouse is for throwing eggs.
+# Edite:
+I plan on updating the game in the future to make it less punishing and sadistic ;]
